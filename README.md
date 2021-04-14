@@ -98,13 +98,13 @@ Before we start with data modeling, we have to group transactions at the custome
 
 ## Cluster assignment using K-means clustering
 
-Choosing the appropriate number of clusters depends on business understanding and domain expertise.
+Choosing the appropriate number of clusters depends on business understanding and domain expertise. However in this case we use techniques like Elbow curve and silhouette analysis for determining the optimal number of clusters.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/rppradhan08/ecom-rfm-segmentation/master/images/elbow_curve.PNG" alt="Elbow curve"  style="border-radius: 10px" width=35%>
 </div>
 
-Once cluster assignment has been made, below are the characteristics of clusters that were observed:
+After cluster assignment, the following are the unique characteristics traits that were observed:
 
 - **Cluster 0** contains the customers who generate the least revenue and are not frequent, most likely because these were one-time customers. Hence they can be labeled as Slipping.
 - **Cluster 1** seems to have the most loyal customers, as they bring the most revenue and are often the most frequent customers.
