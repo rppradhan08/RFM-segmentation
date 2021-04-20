@@ -64,7 +64,7 @@ Customer segmentation can be grouped into 3 types i.e. demographic segmentation,
 
 ## Installations
 
-Before starting executing the Jupyter notebook, execute the below commands in the terminal for setting up the virtual environment and installing packages:
+Firstly, execute the below commands in the terminal for setting up the virtual environment and installing packages:
 
 1. Create a virtual environment
 
@@ -86,7 +86,7 @@ pip install requirement.txt
 
 ## Overview and understanding of data
 
-Getting familiar with the dataset and performing descriptive statistics to identify inconsistencies in the dataset.
+Getting familiar with the data and performing descriptive statistics to identify inconsistencies in the dataset.
 
 ## Data Preprocessing
 
